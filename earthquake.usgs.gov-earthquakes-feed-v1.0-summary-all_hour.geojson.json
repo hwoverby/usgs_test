@@ -1,261 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784624673000,
+    "generated": 1784710905000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.89,
+        "mag": 2.32,
         "place": "3 km SSW of Pāhala, Hawaii",
-        "time": 1784623994740,
-        "updated": 1784624206110,
+        "time": 1784710356340,
+        "updated": 1784710571190,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75005522",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75005522.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75006277",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75006277.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 55,
+        "sig": 83,
         "net": "hv",
-        "code": "75005522",
-        "ids": ",hv75005522,",
+        "code": "75006277",
+        "ids": ",hv75006277,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.03159,
-        "rms": 0.200000003,
-        "gap": 146,
-        "magType": "md",
+        "nst": 55,
+        "dmin": 0.02666,
+        "rms": 0.140000001,
+        "gap": 101,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 3 km SSW of Pāhala, Hawaii"
+        "title": "M 2.3 - 3 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.490173339844,
-          19.1726665496826,
-          30.9500007629395
+          -155.485992431641,
+          19.1696662902832,
+          30.8099994659424
         ]
       },
-      "id": "hv75005522"
+      "id": "hv75006277"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.26,
-        "place": "7 km ENE of Los Alamos, CA",
-        "time": 1784623944660,
-        "updated": 1784624156459,
+        "mag": 1.5,
+        "place": "104 km NNW of Karluk, Alaska",
+        "time": 1784710162308,
+        "updated": 1784710228181,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658706",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40658706.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ojubuq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ojubuq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 79,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026ojubuq",
+        "ids": ",aka2026ojubuq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 104 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.874,
+          58.48,
+          7.3
+        ]
+      },
+      "id": "aka2026ojubuq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.41,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1784709722570,
+        "updated": 1784709923730,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659186",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659186.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
         "net": "ci",
-        "code": "40658706",
-        "ids": ",ci40658706,",
+        "code": "40659186",
+        "ids": ",ci40659186,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.0693,
-        "rms": 0.22,
-        "gap": 40,
+        "nst": 49,
+        "dmin": 0.04308,
+        "rms": 0.2,
+        "gap": 35,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 7 km ENE of Los Alamos, CA"
+        "title": "M 1.4 - 18 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.202666666667,
-          34.763,
-          1.47
+          -117.818833333333,
+          35.3045,
+          8.33
         ]
       },
-      "id": "ci40658706"
+      "id": "ci40659186"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1784622800670,
-        "updated": 1784622899264,
+        "mag": 0.92,
+        "place": "14 km W of Johannesburg, CA",
+        "time": 1784709018500,
+        "updated": 1784709228611,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75402932",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75402932.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659178",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659178.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75402932",
-        "ids": ",nc75402932,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.0123,
-        "rms": 0.02,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.794334411621,
-          38.8238334655762,
-          2.64000010490417
-        ]
-      },
-      "id": "nc75402932"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.31,
-        "place": "4 km WSW of Anza, CA",
-        "time": 1784622500630,
-        "updated": 1784622712070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658698",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40658698.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
+        "sig": 13,
         "net": "ci",
-        "code": "40658698",
-        "ids": ",ci40658698,",
+        "code": "40659178",
+        "ids": ",ci40659178,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.03332,
-        "rms": 0.15,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.3 - 4 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.708833333333,
-          33.542,
-          6.45
-        ]
-      },
-      "id": "ci40658698"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.26,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1784621721000,
-        "updated": 1784622740357,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75402927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75402927.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "nc",
-        "code": "75402927",
-        "ids": ",nc75402927,",
-        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.009627,
-        "rms": 0.03,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818168640137,
-          38.8306655883789,
-          1.75999999046326
-        ]
-      },
-      "id": "nc75402927"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.45,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1784621405850,
-        "updated": 1784621609973,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658690",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40658690.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "40658690",
-        "ids": ",ci40658690,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.08938,
-        "rms": 0.11,
-        "gap": 104,
+        "nst": 36,
+        "dmin": 0.1009,
+        "rms": 0.16,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 14 km SW of Searles Valley, CA"
+        "title": "M 0.9 - 14 km W of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.527833333333,
-          35.6935,
-          7
+          -117.7925,
+          35.3586666666667,
+          4.84
         ]
       },
-      "id": "ci40658690"
+      "id": "ci40659178"
     }
   ],
   "bbox": [
-    -155.49017333984,
-    19.172666549683,
-    1.47,
-    -116.70883333333,
-    38.830665588379,
-    30.950000762939
+    -155.48599243164,
+    19.169666290283,
+    4.84,
+    -117.7925,
+    58.48,
+    30.809999465942
   ]
 }
